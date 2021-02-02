@@ -1,0 +1,59 @@
+.navbar_container {
+    display: flex;
+    justify-content: left;
+    /* border-bottom: 1px solid #aaa; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.option {
+    display: flex;
+    font-size: x-large;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.logo {
+    font-size: xx-large;
+}
+
+.sale_container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    background-color: rgb(253, 226, 184);
+}
+
+.sale {
+    padding-top: 30px;
+}
+
+#sale_image {
+    width: 700px;
+    height: 400px;
+    padding-right: 30px;
+}
+
+.sale_explanation {
+    display: block;
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 15px;
+    margin-top: 30px;
+    font-size: 60px;
+    color: rgb(220, 223, 188);
+    background-color: rgb(79, 88, 107);
+    font-family: 'Roboto', sans-serif;
+}
+
+.bottom_message {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Amatic SC', cursive;
+    color: red;
+}
